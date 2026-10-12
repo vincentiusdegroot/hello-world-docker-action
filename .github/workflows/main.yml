@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: vincentiusdegroot/github-action-testing@v1
+        uses: vincentiusdegroot/github-action-testing/my-first-pub-action@v1
         with:
           who-to-greet: 'This is me testing stuff 123'
